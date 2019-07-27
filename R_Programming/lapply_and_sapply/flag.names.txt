@@ -21,7 +21,8 @@
    -- 10 attributes are numeric-valued.  The remainder are either Boolean-
       or nominal-valued.
 
-5. Number of Instances: 194
+
+5. Number of Instances: 553
 
 6. Number of attributes: 30 (overall)
 
@@ -31,7 +32,7 @@
    3. zone	Geographic quadrant, based on Greenwich and the Equator
                 1=NE, 2=SE, 3=SW, 4=NW
    4. area	in thousands of square km
-   5. population	in round millions
+   5. population	in round billions
    6. language 1=English, 2=Spanish, 3=French, 4=German, 5=Slavic, 6=Other 
                Indo-European, 7=Chinese, 8=Arabic, 
                9=Japanese/Turkish/Finnish/Magyar, 10=Others
@@ -41,12 +42,6 @@
    9. stripes  Number of horizontal stripes in the flag
   10. colours  Number of different colours in the flag
   11. red      0 if red absent, 1 if red present in the flag
-  12. green    same for green
-  13. blue     same for blue
-  14. gold     same for gold (also yellow)
-  15. white    same for white
-  16. black    same for black
-  17. orange   same for orange (also brown)
   18. mainhue  predominant colour in the flag (tie-breaks decided by taking
                the topmost hue, if that fails then the most central hue,
                and if that fails the leftmost hue)
